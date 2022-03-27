@@ -1,0 +1,13 @@
+// ex5
+function intervaloPares(inicio, fim, quantidade) {
+    // Escreva aqui seu código
+    let pares = [];
+    let numero = inicio;
+    while (pares.length < quantidade) {
+        numero += 1;
+        if (numero % 2 == 0) {
+            pares.push(numero)
+        }
+    }
+    return pares
+}
